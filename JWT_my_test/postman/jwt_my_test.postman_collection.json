@@ -1,0 +1,100 @@
+{
+	"info": {
+		"_postman_id": "2495c439-6da0-49d4-b95a-1f4358c561d9",
+		"name": "jwt_my_test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Email\": \"lolik228\",\r\n    \"Password\":\"Lol_3#_qza\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/account/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"account",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "checkProtected",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJsb2xpazIyOCIsImp0aSI6IjIxZGM4NDlhLTA0ODgtNGYwMC1iNGZhLTNmZTY1ZmMyYTBmZSIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWVpZGVudGlmaWVyIjoiMTQ1NjczNTUtZWY0Ny00OWM0LTkwZDEtZWI2MDlkYWRkODVhIiwiZXhwIjoxNjE3MTk0Nzc5LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjUwMDAiLCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjUwMDAifQ.pfV0ID_-vtXkumyIDeN_Wmzui6iF8p_4wIXYGekY8FQ",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:5000/account/Protected",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"account",
+						"Protected"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Email\": \"lolik228\",\r\n    \"Password\":\"Lol_3#_qza\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:5000/account/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"account",
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

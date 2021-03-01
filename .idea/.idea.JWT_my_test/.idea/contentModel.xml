@@ -26,6 +26,9 @@
             </e>
           </e>
         </e>
+        <e p="postman" t="Include">
+          <e p="jwt_my_test.postman_collection.json" t="Include" />
+        </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />

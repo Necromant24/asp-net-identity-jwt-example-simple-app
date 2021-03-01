@@ -4,7 +4,9 @@
     <projectFile>JWT_my_test/JWT_my_test.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c07ae83-747f-4e5a-b9fe-136ae37cc2ec" name="Default Changelist" comment="" />
+    <list default="true" id="7c07ae83-747f-4e5a-b9fe-136ae37cc2ec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/JWT_my_test/JWT_my_test.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/JWT_my_test/JWT_my_test.csproj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +22,7 @@
       <option value="$PROJECT_DIR$/JWT_my_test/Controllers/AccountController.cs" />
       <option value="$PROJECT_DIR$/JWT_my_test/Program.cs" />
       <option value="$PROJECT_DIR$/JWT_my_test/Startup.cs" />
+      <option value="$PROJECT_DIR$/JWT_my_test/.gitignore" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1p9giiLDK8p7bm6iKJkYqdyo71x" />
@@ -77,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614600849094</updated>
-      <workItem from="1614600879892" duration="2340000" />
+      <workItem from="1614600879892" duration="2703000" />
     </task>
     <servers />
   </component>
